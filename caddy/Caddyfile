@@ -1,4 +1,4 @@
-212.189.205.181.cloud.ba.infn.it {
+DNS-NAME-CHANGE-ME {
     reverse_proxy keycloak:8080 {
         header_up X-Forwarded-Proto https
         header_up X-Real-IP {remote_host}
